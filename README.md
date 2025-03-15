@@ -12,7 +12,7 @@ Unlock an entirely new way to experience magic.
 - Automatic Mana cost calculation for spells, weapons, and items!
 - Blood Magic: use health to cast spells in place of mana! (also known as Health-as-Mana)
 
-<img src="./src/assets/readme/character_preview.png" width="620px">
+<img src="./assets/readme/character_preview.png" width="620px">
 
 ## Instructions
 ### Add Mana Cost
@@ -22,13 +22,13 @@ Unlock an entirely new way to experience magic.
   If the item is a spell, then the *Automatic Mana Cost* cost is automatically added.  
   Customize how much Mana and Health the item costs by using the small plus (**+**) button on the right hand side of each section.
 
-<img src="./src/assets/readme/enable_mana_item.png" width="620px">
+<img src="./assets/readme/enable_mana_item.png" width="620px">
 
 ### Hiding Spell slots
 If you wish to hide the Spell Slot options from item usage dialogs, you can select the *Hide the "Cast With Spellslots"* option in the module's settings page.  
 This will keep spell slot-related functionality enabled, but it will hide any visual clutter making the UI a lot cleaner.
 
-<img src="./src/assets/readme/hide_spellslots.png" width="620px">
+<img src="./assets/readme/hide_spellslots.png" width="620px">
 
 ### Understanding Customization Options
 Mana System offers an incredible level of customization. The module has an number of small fields and values that can be fine-tuned to make it behave exactly as you desire. As a result, for new users this amount of information might be overwheling. Each section and their respective settings are as follows:
@@ -40,7 +40,7 @@ This section controls the universal formula that is used to calculate a characte
 
 The custom formula allows you to write your own formula using [Foundry's Formulas](https://foundryvtt.com/article/dice-modifiers/) notation. This means you can use rolls and reference attribute using `@attribute` like your normally would inside Foundry.
 
-<img src="./src/assets/readme/settings_2.png" width="620px">
+<img src="./assets/readme/settings_2.png" width="620px">
 
 #### Base Stats
 This section controls the base mana and mana growth for all characters, regardless if they use magic or not. You can also control how much each ability score contributes to calculations.
@@ -50,7 +50,7 @@ This section controls modifiers that are specific to the Race of a character. It
 
 In the *Identifier* field of the table, make sure to include the **race identifier** of the race you want to add. You can group races together by separating them with a comma (`,`), but make sure not to include any other special characters.
 
-<img src="./src/assets/readme/settings_3.png" width="620px">
+<img src="./assets/readme/settings_3.png" width="620px">
 
 #### Upcasting
 This section controls the amount by which upcasting is calculated.
